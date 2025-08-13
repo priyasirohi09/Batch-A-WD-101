@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!-- Sets the character encoding for the page to UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the page responsive on mobile devices -->
+  <title>Form</title> <!-- The title of the page shown in the browser tab -->
+</head>
+<body>
+  <!-- Form starts here -->
+  <form>
+    
+    <!-- Name Input -->
+    <label>Name</label>
+    <input type="text"> <!-- Text field to enter name -->
+
+    <!-- Email Input -->
+    <label>Email</label>
+    <input type="email"> <!-- Email field that validates email format -->
+    
+    <!-- Phone Number Input -->
+    <label>Phone Number</label>
+    <input type="tel"> <!-- Input for telephone number -->
+
+    <!-- Age Input -->
+    <label>Age</label>
+    <input type="number" min="1" max="100"> <!-- Number field with limits -->
+
+    <!-- Date of Birth Input -->
+    <label>Date of Birth</label>
+    <input type="date" min="1900-01-01" max="2007-06-01"> <!-- Date picker with range -->
+
+    <!-- Checkbox selection for favourite fruit -->
+    <h4>Favourite Fruit</h4>
+    <label>Apple</label>
+    <input type="checkbox"> <!-- Checkbox for apple -->
+    <label>Mango</label>
+    <input type="checkbox"> <!-- Checkbox for mango -->
+    <label>Kiwi</label>
+    <input type="checkbox"> <!-- Checkbox for kiwi -->
+
+    <!-- Radio buttons for gender selection -->
+    <h4>Gender</h4>
+    <label>
+      Male
+      <input type="radio" name="gender"> <!-- Radio button for male -->
+    </label>
+    <label for="fmale">Female</label>
+    <input id="fmale" type="radio" name="gender"> <!-- Radio button for female -->
+    <label>Other</label>
+    <input type="radio" name="gender"> <!-- Radio button for other gender -->
+
+    <!-- Textarea for writing a message -->
+    <label>Write a message</label>
+    <textarea></textarea> <!-- Multi-line text input -->
+
+    <!-- Submit button for form -->
+    <button>Submit</button>
+
+  </form>
+  <!-- Form ends here -->
+</body>
+</html>
