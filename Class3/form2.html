@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission Form</title>
+</head>
+
+<body>
+  <h1>Admission Form</h1>
+  <form>
+    <label>
+      Full Name:
+      <input type="text">
+    </label>
+
+    <label>
+      Email:
+      <input type="email">
+    </label>
+
+    <label>
+      Phone Number:
+      <input type="tel">
+    </label>
+
+    <label>
+      Age:
+      <input type="number" min="15" max="60">
+    </label>
+
+    <label>
+      Date of Birth:
+      <input type="date" min="1955-01-01" max="2010-01-01">
+    </label>
+
+    <p>Gender: </p>
+    <label>male
+      <input type="radio" name="gender">
+    </label>
+    <label>Female
+      <input type="radio" name="gender">
+    </label>
+    <label>Other
+      <input type="radio" name="gender">
+    </label>
+
+    <p>Services:</p>
+    <label>
+      Bus Service
+      <input type="checkbox">
+    </label>
+    <label>
+      Mess Service
+      <input type="checkbox">
+    </label>
+    <label>
+      Accomodation
+      <input type="checkbox">
+    </label>
+
+  <p>Blood Group :</p>
+    <select>
+    <option>A+</option>
+    <option>A-</option>
+    <option>B+</option>
+    <option>B-</option>
+    <option>O-</option>
+    <option>O+</option>
+    <option>AB+</option>
+    <option>AB-</option>
+  </select>
+
+  <label>
+    Describe yourself in 200 words
+  <textarea></textarea>
+  </label>
+
+  <button>Submit</button>
+  </form>
+
+</body>
+
+</html>
