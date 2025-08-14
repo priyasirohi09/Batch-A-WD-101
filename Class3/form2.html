@@ -8,76 +8,103 @@
 </head>
 
 <body>
-  <h1>Admission Form</h1>
+  <!--  Structured Code using div tag -->
+  <div>
+    <h1>Admission Form</h1>
+  </div>
+
   <form>
-    <label>
-      Full Name:
-      <input type="text">
-    </label>
+    <div>
+      <label>
+        Full Name:
+        <input type="text">
+      </label>
+    </div>
 
-    <label>
-      Email:
-      <input type="email">
-    </label>
+    <div>
+      <label>
+        Email:
+        <input type="email">
+      </label>
+    </div>
 
-    <label>
-      Phone Number:
-      <input type="tel">
-    </label>
+    <div>
+      <label>
+        Phone Number:
+        <input type="tel">
+      </label>
+    </div>
 
-    <label>
-      Age:
-      <input type="number" min="15" max="60">
-    </label>
+    <div>
+      <label>
+        Age:
+        <input type="number" min="15" max="60">
+      </label>
 
-    <label>
-      Date of Birth:
-      <input type="date" min="1955-01-01" max="2010-01-01">
-    </label>
+      <label>
+        Date of Birth:
+        <input type="date" min="1955-01-01" max="2010-01-01">
+      </label>
+    </div>
 
-    <p>Gender: </p>
-    <label>male
-      <input type="radio" name="gender">
-    </label>
-    <label>Female
-      <input type="radio" name="gender">
-    </label>
-    <label>Other
-      <input type="radio" name="gender">
-    </label>
+    <div>
+      <p>Gender: </p>
+    </div>
+    <div>
+      <label>male
+        <input type="radio" name="gender">
+      </label>
+      <label>Female
+        <input type="radio" name="gender">
+      </label>
+      <label>Other
+        <input type="radio" name="gender">
+      </label>
+    </div>
 
-    <p>Services:</p>
-    <label>
-      Bus Service
-      <input type="checkbox">
-    </label>
-    <label>
-      Mess Service
-      <input type="checkbox">
-    </label>
-    <label>
-      Accomodation
-      <input type="checkbox">
-    </label>
+    <div >
+      <p>Services:</p>
+      <label>
+        Bus Service
+        <input type="checkbox">
+      </label>
+      <label>
+        Mess Service
+        <input type="checkbox">
+      </label>
+      <label>
+        Accomodation
+        <input type="checkbox">
+      </label>
+    </div>
 
-  <p>Blood Group :</p>
-    <select>
-    <option>A+</option>
-    <option>A-</option>
-    <option>B+</option>
-    <option>B-</option>
-    <option>O-</option>
-    <option>O+</option>
-    <option>AB+</option>
-    <option>AB-</option>
-  </select>
+    <div >
+      <p>Blood Group :</p>
+      <select>
+        <option>A+</option>
+        <option>A-</option>
+        <option>B+</option>
+        <option>B-</option>
+        <option>O-</option>
+        <option>O+</option>
+        <option>AB+</option>
+        <option>AB-</option>
+      </select>
+    </div>
 
-  <label>
-    Describe yourself in 200 words
-  <textarea></textarea>
-  </label>
+    <div>
+      <label>
+        Describe yourself in <span style="background-color: red;">200 words </span>
+        <div>
+          <textarea></textarea>
+        </div>
+      </label>
+    </div>
 
-  <button>Submit</button>
+
+    <div>
+      <button>Submit</button>
+    </div>
   </form>
 
 </body>
