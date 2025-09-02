@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Queries</title>
+  <style>
+    .container {
+      margin: auto;
+      height: 800px;
+      /* width: 1500px; */
+      background-color: green;
+      padding: 20px;
+      display: flex;
+      
+    }
+
+    .item {
+      background-color: coral;
+      height: 150px;
+      width: 100px;
+      margin: 10px;
+      padding: 20px;
+    }
+
+    @media(max-width:1000px){
+      .container{
+        flex-wrap: wrap;
+      }
+      .item{
+        background-color: red;
+      }
+    }
+    @media(min-width: 1200px){
+      .container{
+        background-color: violet;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+  </div>
+</body>
+</html>
