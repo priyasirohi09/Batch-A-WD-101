@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    h2, p{
+      color: blue;
+    }
+    .heading.h1#first{
+      color: green;
+    }
+    .heading{
+      color: blue;
+    }
+    h1{
+      color: red;
+    }
+    .parent>.child{
+        background-color: yellow;
+        height: 100px;
+        width: 100px;
+        border: 4px solid blue;
+    }
+    div>div{
+        background-color: black;
+        border: 6px solid aqua !important;
+        color: red !important;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="child" style="background-color: green; color: darkgoldenrod;">Box 1</div>
+  </div>
+  <h1>Heading1</h1>
+  <h1 class="heading">Hello World</h1>
+  <h1 class="heading h1" id="first">Bye</h1>
+  <p>Lorem ipsum dolor sit.</p>
+  <p>Lorem ipsum dolor sit.</p>
+  <p>Lorem ipsum dolor sit.</p>
+  <h2>Hey</h2>
+  <h2>Hey</h2>
+  <h2>Hey</h2>
+  <h2>Hey</h2>
+</body>
+</html>
