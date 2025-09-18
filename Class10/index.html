@@ -7,15 +7,26 @@
   <style>
     .container{
       padding: 40px;
-      background-color: pink;
       width: 400px;
       margin: auto;
     }
     button{
       width: 200px;
+      height: 200px;
       padding: 20px;
+
       margin-left: 40px;
       background-color: yellow;
+      transition-duration: 5s;
+      transition-property: all;
+    }
+    button:hover{
+      background-color: blue;
+      color: white;
+      width: 150px;
+      height: 150px;
+      /* border-radius: 50%; */
+      transform: translateX(300px);
     }
   </style>
 </head>
