@@ -14,20 +14,28 @@
       width: 200px;
       height: 200px;
       padding: 20px;
-
       margin-left: 40px;
       background-color: yellow;
-      transition-duration: 2s;
-      transition-property: all;
+      animation-name: button-animation;
+      animation-duration: 4s;
+      /* animation-iteration-count: infinite; */
+      animation-fill-mode: forwards;
     }
-    button:hover{
-      background-color: blue;
-      color: white;
-      /* width: 150px;
-      height: 150px; */
-      /* border-radius: 50%; */
-      transform:scale(1.5);
+
+    @keyframes button-animation{
+      0%{
+        background-color: yellow;
+      }
+    
+      50%{
+        background-color: green;
+      }
+
+      100%{
+        background-color: blue;
+      }
     }
+    
   </style>
 </head>
 <body>
