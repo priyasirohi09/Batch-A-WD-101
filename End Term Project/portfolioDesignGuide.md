@@ -2,7 +2,7 @@
 ---
 
 # 🖥️ Guide to Building Your Personal Portfolio Website
-
+## DEADLINE - 5th October, 2025
 ## 1. Planning Before You Code
 
 * **Define Purpose**: Your portfolio should showcase *you*. Ask yourself:
