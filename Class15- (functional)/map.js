@@ -16,7 +16,7 @@ console.log(square(numbers)) //[4, 25, 100, 36, 49]
 
 // Using map()
 let numbers = [2, 5, 10, 6, 7]
-let newarr = numbers.map(function(ele, idx){
+let newarr = numbers.map(function(ele, idx ){
   console.log(`${ele} at index ${idx}`)
   return ele*ele
 })
@@ -33,4 +33,17 @@ Output:
 */
 
 
+// Using a map to find area for the given 
+// radiuses in the form of an array
 
+let radiusArr = [2, 4, 1, 10, 20]
+let area = radiusArr.map(function(radius){
+  return 3.14*radius*radius
+})
+console.log(radiusArr)
+console.log(area)
+
+// Use map() to double every element of the array
+
+// numbers = [2, 5, 10, 6, 7]
+//  ans = [4, 10, 20, 12, 14]
