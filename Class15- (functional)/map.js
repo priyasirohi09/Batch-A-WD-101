@@ -44,6 +44,11 @@ console.log(radiusArr)
 console.log(area)
 
 // Use map() to double every element of the array
-
 // numbers = [2, 5, 10, 6, 7]
 //  ans = [4, 10, 20, 12, 14]
+
+function double(num){
+  return 2*num
+}
+let doubleArr = numbers.map(double)
+console.log(doubleArr)
