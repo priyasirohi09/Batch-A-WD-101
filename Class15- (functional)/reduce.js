@@ -21,6 +21,11 @@ let ans = num.reduce(function(res, ele){
   res += ele
   return res
 }, 0)
-console.log(ans)
+console.log(ans) // 55
 
-// produc t of all elements in the array 
+// sum  of all even  elements in the array 
+let ans2 = num.reduce(function(res, ele){
+  if(ele%2==0){res += ele}
+  return res
+}, 0)
+console.log(ans2) // 30
